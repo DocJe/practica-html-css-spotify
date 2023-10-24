@@ -1,3 +1,33 @@
+* { /*selector universal y configuracion 
+    para que el header ocupe desde el borde de la página*/
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 200, 200);
+    color: black;
+    padding: 20px;
+    text-align: left;
+}
+
+.navegacion-header {
+    display: flex;
+    background-color:white;
+    list-style: none;
+}
+
+.navegacion-header li {
+    padding: 0 10px;
+}
+
+.navegacion-header li a {
+   text-decoration: none;
+}
+
 /*
 Colors:
 
